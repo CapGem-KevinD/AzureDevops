@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="azure-devopsFlow" doc:id="b560f83b-339e-415e-b672-030268de0463" >
 		<http:listener doc:name="Listener" doc:id="a127bc72-2a00-4267-b69c-d71091de6430" config-ref="HTTP_Listener_config" path="/AzureDevops"/>
-		<set-payload value="Azure Devops!" doc:name="Set Payload" doc:id="b3db0a1c-0cd5-4875-8ed6-ab48b34318da" />
+		<set-payload value="Azure Devops Demo!" doc:name="Set Payload" doc:id="b3db0a1c-0cd5-4875-8ed6-ab48b34318da" />
 		<logger level="INFO" doc:name="Logger" doc:id="ed78836a-7079-45bb-9e20-57696cfc6864" />
 	</flow>
 </mule>
